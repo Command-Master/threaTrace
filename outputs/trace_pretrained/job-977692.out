@@ -1,0 +1,22 @@
+Fri 30 Aug 2024 09:54:39 IDT
+
+SLURM_JOBID:		 977692
+SLURM_JOB_NODELIST:	 ise-cpu128-02 
+
+
+executing python ./test_darpatc.py --scene trace --pretrained
+Resource usage start: resource.struct_rusage(ru_utime=2.7732099999999997, ru_stime=3.86687, ru_maxrss=338640, ru_ixrss=0, ru_idrss=0, ru_isrss=0, ru_minflt=52092, ru_majflt=10, ru_nswap=0, ru_inblock=8, ru_oublock=0, ru_msgsnd=0, ru_msgrcv=0, ru_nsignals=0, ru_nvcsw=9935, ru_nivcsw=88846) 2024-08-30 09:54:46
+Start testing graph 1 in model 0 2024-08-30 09:54:46
+../graphchi-cpp-master/graph_data/darpatc/trace_test.txt 2024-08-30 09:54:46
+0  loss:0.0000  acc:0.6918  fp:373411 2024-08-30 09:59:28
+1  loss:0.0000  acc:0.2908  fp:264826 2024-08-30 10:00:30
+2  loss:0.0000  acc:0.7168  fp:74989 2024-08-30 10:01:13
+3  loss:0.0000  acc:0.8628  fp:10292 2024-08-30 10:01:27
+4  loss:0.0000  acc:0.3173  fp:7026 2024-08-30 10:01:32
+5  loss:0.0000  acc:0.4767  fp:3677 2024-08-30 10:01:36
+6  loss:0.0000  acc:0.0990  fp:3313 2024-08-30 10:01:38
+7  loss:0.0000  acc:0.0199  fp:3247 2024-08-30 10:01:41
+8  loss:0.0000  acc:0.0573  fp:3061 2024-08-30 10:01:44
+9  loss:0.0000  acc:0.0595  fp:2879 2024-08-30 10:01:47
+Finish testing graph 1 in model 0 2024-08-30 10:01:51
+Resource usage: resource.struct_rusage(ru_utime=1799.284945, ru_stime=20.401804, ru_maxrss=2724480, ru_ixrss=0, ru_idrss=0, ru_isrss=0, ru_minflt=595502, ru_majflt=33, ru_nswap=0, ru_inblock=8, ru_oublock=116024, ru_msgsnd=0, ru_msgrcv=0, ru_nsignals=0, ru_nvcsw=103311, ru_nivcsw=109971) 2024-08-30 10:01:51
