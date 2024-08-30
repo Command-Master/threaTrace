@@ -1,0 +1,13 @@
+Thu 29 Aug 2024 20:09:30 IDT
+
+SLURM_JOBID:		 976053
+SLURM_JOB_NODELIST:	 dt-cpu-12 
+
+
+executing python ./test_darpatc.py --scene theia --pretrained
+Resource usage start: resource.struct_rusage(ru_utime=2.653958, ru_stime=2.1894109999999998, ru_maxrss=337924, ru_ixrss=0, ru_idrss=0, ru_isrss=0, ru_minflt=73214, ru_majflt=8, ru_nswap=0, ru_inblock=8, ru_oublock=0, ru_msgsnd=0, ru_msgrcv=0, ru_nsignals=0, ru_nvcsw=9217, ru_nivcsw=547735) 2024-08-29 20:09:36
+Start testing graph 1 in model 0 2024-08-29 20:09:36
+../graphchi-cpp-master/graph_data/darpatc/theia_test.txt 2024-08-29 20:09:36
+0  loss:0.0000  acc:0.8376  fp:55995 2024-08-29 20:11:15
+Finish testing graph 1 in model 0 2024-08-29 20:11:25
+Resource usage: resource.struct_rusage(ru_utime=147.927801, ru_stime=8.678929, ru_maxrss=4397520, ru_ixrss=0, ru_idrss=0, ru_isrss=0, ru_minflt=1799633, ru_majflt=297, ru_nswap=0, ru_inblock=2592552, ru_oublock=46704, ru_msgsnd=0, ru_msgrcv=0, ru_nsignals=0, ru_nvcsw=27179, ru_nivcsw=550210) 2024-08-29 20:11:25

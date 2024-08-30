@@ -1,0 +1,13 @@
+Thu 29 Aug 2024 20:09:30 IDT
+
+SLURM_JOBID:		 976055
+SLURM_JOB_NODELIST:	 ise-cpu-intl-07 
+
+
+executing python ./test_darpatc.py --scene cadets
+Resource usage start: resource.struct_rusage(ru_utime=3.578088, ru_stime=2.910592, ru_maxrss=341024, ru_ixrss=0, ru_idrss=0, ru_isrss=0, ru_minflt=68657, ru_majflt=35, ru_nswap=0, ru_inblock=8, ru_oublock=0, ru_msgsnd=0, ru_msgrcv=0, ru_nsignals=0, ru_nvcsw=8477, ru_nivcsw=34021) 2024-08-29 20:09:36
+Start testing graph 1 in model 0 2024-08-29 20:09:36
+../graphchi-cpp-master/graph_data/darpatc/cadets_test.txt 2024-08-29 20:09:36
+0  loss:0.0000  acc:0.6803  fp:114195 2024-08-29 20:10:21
+Finish testing graph 1 in model 0 2024-08-29 20:30:20
+Resource usage: resource.struct_rusage(ru_utime=1288.258406, ru_stime=5.915424, ru_maxrss=2926872, ru_ixrss=0, ru_idrss=0, ru_isrss=0, ru_minflt=882158, ru_majflt=370, ru_nswap=0, ru_inblock=1211776, ru_oublock=48776, ru_msgsnd=0, ru_msgrcv=0, ru_nsignals=0, ru_nvcsw=13940, ru_nivcsw=36159) 2024-08-29 20:30:20

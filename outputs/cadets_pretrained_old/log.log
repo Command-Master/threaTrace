@@ -1,0 +1,30 @@
+/home/weberdan/.conda/envs/threatrace/bin/python /home/weberdan/threaTrace/scripts/test_darpatc.py --scene cadets
+Resource usage start: resource.struct_rusage(ru_utime=2.766761, ru_stime=3.105266, ru_maxrss=343180, ru_ixrss=0, ru_idrss=0, ru_isrss=0, ru_minflt=74202, ru_majflt=4, ru_nswap=0, ru_inblock=8, ru_oublock=0, ru_msgsnd=0, ru_msgrcv=0, ru_nsignals=0, ru_nvcsw=6210, ru_nivcsw=30) 2024-08-27 08:14:50
+Start testing graph 1 in model 0 2024-08-27 08:14:50
+../graphchi-cpp-master/graph_data/darpatc/cadets_test.txt 2024-08-27 08:14:50
+0  loss:0.0000  acc:0.6803  fp:114195 2024-08-27 08:15:43
+1  loss:0.0000  acc:0.8419  fp:18054 2024-08-27 08:15:56
+2  loss:0.0000  acc:0.4583  fp:9779 2024-08-27 08:16:00
+3  loss:0.0000  acc:0.1086  fp:8717 2024-08-27 08:16:02
+4  loss:0.0000  acc:0.1560  fp:7357 2024-08-27 08:16:04
+5  loss:0.0000  acc:0.1287  fp:6410 2024-08-27 08:16:05
+6  loss:0.0000  acc:0.3454  fp:4196 2024-08-27 08:16:06
+7  loss:0.0000  acc:0.0067  fp:4168 2024-08-27 08:16:07
+8  loss:0.0000  acc:0.3450  fp:2730 2024-08-27 08:16:07
+9  loss:0.0000  acc:0.1553  fp:2306 2024-08-27 08:16:07
+10  loss:0.0000  acc:0.0889  fp:2101 2024-08-27 08:16:07
+11  loss:0.0000  acc:0.3413  fp:1384 2024-08-27 08:16:08
+12  loss:0.0000  acc:0.0932  fp:1255 2024-08-27 08:16:08
+13  loss:0.0000  acc:0.0518  fp:1190 2024-08-27 08:16:08
+14  loss:0.0000  acc:0.0689  fp:1108 2024-08-27 08:16:08
+15  loss:0.0000  acc:0.0045  fp:1103 2024-08-27 08:16:08
+16  loss:0.0000  acc:0.0553  fp:1042 2024-08-27 08:16:08
+17  loss:0.0000  acc:0.0038  fp:1038 2024-08-27 08:16:08
+18  loss:0.0000  acc:0.0405  fp:996 2024-08-27 08:16:09
+19  loss:0.0000  acc:0.0000  fp:996 2024-08-27 08:16:09
+20  loss:0.0000  acc:0.0000  fp:996 2024-08-27 08:16:09
+21  loss:0.0000  acc:0.0020  fp:994 2024-08-27 08:16:09
+Finish testing graph 1 in model 0 2024-08-27 08:16:10
+Resource usage: resource.struct_rusage(ru_utime=106.349782, ru_stime=7.10994, ru_maxrss=3062828, ru_ixrss=0, ru_idrss=0, ru_isrss=0, ru_minflt=999387, ru_majflt=63, ru_nswap=0, ru_inblock=8, ru_oublock=32440, ru_msgsnd=0, ru_msgrcv=0, ru_nsignals=0, ru_nvcsw=19379, ru_nivcsw=1021) 2024-08-27 08:16:10
+
+Process finished with exit code 0
