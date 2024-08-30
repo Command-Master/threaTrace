@@ -11,7 +11,7 @@ import argparse, os.path as osp
 parser = argparse.ArgumentParser()
 parser.add_argument('--model', type=str, default='0')
 parser.add_argument('--scene', type=str, default='')
-parser.add_argument('--pretrained', action='store_const', const=False, default=True)
+parser.add_argument('--pretrained', action='store_true')
 args = parser.parse_args()
 assert args.scene in ['cadets', 'trace', 'theia', 'fivedirections']
 
@@ -48,11 +48,11 @@ for j in range(1):
     args.model = model_map[j]
     while 1:
         if loop_num > 100: break
-        model_path = model_path + 'model_' + str(loop_num)
-        if not osp.exists(model_path):
+        model_path_ = model_path + 'model_' + str(loop_num)
+        if not osp.exists(model_path_):
             loop_num += 1
             continue
-        model.load_state_dict(torch.load(model_path))
+        model.load_state_dict(torch.load(model_path_))
 
         fp = []
         tn = []

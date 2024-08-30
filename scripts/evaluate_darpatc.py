@@ -1,9 +1,26 @@
-f_gt = open('groundtruth_nodeId.txt', 'r')
-f_alarm = open('alarm.txt', 'r')
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--scene', type=str, default='')
+parser.add_argument('--pretrained', action='store_true')
+args = parser.parse_args()
+assert args.scene in ['cadets', 'trace', 'theia', 'fivedirections']
+
+if args.pretrained:
+    model_path = f'../example_models/darpatc/{args.scene}/'
+    output_path = f'../outputs/{args.scene}_pretrained/'
+else:
+    model_path = f'../outputs/{args.scene}_train/'
+    output_path = f'../outputs/{args.scene}_test/'
+
+print(model_path)
+
+f_gt = open(model_path + 'groundtruth_nodeId.txt', 'r')
+f_alarm = open(output_path + 'alarm.txt', 'r')
 
 eps = 1e-10
 
-f = open('id_to_uuid.txt', 'r')
+f = open(model_path + 'id_to_uuid.txt', 'r')
 node_map = {}
 for line in f:
     line = line.strip('\n').split(' ')
