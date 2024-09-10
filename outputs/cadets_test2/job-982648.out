@@ -1,0 +1,29 @@
+Sat 31 Aug 2024 18:50:59 IDT
+
+SLURM_JOBID:		 982648
+SLURM_JOB_NODELIST:	 dt-cpu-03 
+
+
+executing python ./test_darpatc.py --scene cadets
+Resource usage start: resource.struct_rusage(ru_utime=3.171641, ru_stime=1.6949969999999999, ru_maxrss=339296, ru_ixrss=0, ru_idrss=0, ru_isrss=0, ru_minflt=69350, ru_majflt=2, ru_nswap=0, ru_inblock=8, ru_oublock=0, ru_msgsnd=0, ru_msgrcv=0, ru_nsignals=0, ru_nvcsw=9215, ru_nivcsw=440818) 2024-08-31 18:51:06
+Start testing graph 1 in model 0 2024-08-31 18:51:06
+../graphchi-cpp-master/graph_data/darpatc/cadets_test.txt 2024-08-31 18:51:06
+0  loss:0.0000  acc:0.8885  fp:39839 2024-08-31 18:52:22
+1  loss:0.0000  acc:0.3017  fp:27819 2024-08-31 18:52:33
+2  loss:0.0000  acc:0.0881  fp:25367 2024-08-31 18:52:41
+3  loss:0.0000  acc:0.0360  fp:24454 2024-08-31 18:52:45
+4  loss:0.0000  acc:0.0566  fp:23069 2024-08-31 18:52:49
+5  loss:0.0000  acc:0.0324  fp:22321 2024-08-31 18:52:53
+6  loss:0.0000  acc:0.0035  fp:22242 2024-08-31 18:52:56
+7  loss:0.0000  acc:0.0001  fp:22239 2024-08-31 18:53:00
+8  loss:0.0000  acc:0.0062  fp:22102 2024-08-31 18:53:04
+9  loss:0.0000  acc:0.0037  fp:22021 2024-08-31 18:53:08
+10  loss:0.0000  acc:0.0174  fp:21638 2024-08-31 18:53:12
+11  loss:0.0000  acc:0.0128  fp:21361 2024-08-31 18:53:15
+12  loss:0.0000  acc:0.0118  fp:21109 2024-08-31 18:53:19
+13  loss:0.0000  acc:0.0070  fp:20961 2024-08-31 18:53:23
+14  loss:0.0000  acc:0.0080  fp:20793 2024-08-31 18:53:26
+15  loss:0.0000  acc:0.0125  fp:20533 2024-08-31 18:53:30
+16  loss:0.0000  acc:0.0413  fp:19685 2024-08-31 18:53:33
+Finish testing graph 1 in model 0 2024-08-31 18:53:43
+Resource usage: resource.struct_rusage(ru_utime=291.319201, ru_stime=8.123744, ru_maxrss=3027588, ru_ixrss=0, ru_idrss=0, ru_isrss=0, ru_minflt=1147704, ru_majflt=31, ru_nswap=0, ru_inblock=8, ru_oublock=37688, ru_msgsnd=0, ru_msgrcv=0, ru_nsignals=0, ru_nvcsw=73100, ru_nivcsw=454227) 2024-08-31 18:53:43

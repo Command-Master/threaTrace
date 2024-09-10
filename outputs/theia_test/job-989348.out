@@ -1,0 +1,23 @@
+Sun 01 Sep 2024 18:26:58 IDT
+
+SLURM_JOBID:		 989348
+SLURM_JOB_NODELIST:	 cs-cpu256-01 
+
+
+executing python ./test_darpatc.py --scene theia
+Resource usage start: resource.struct_rusage(ru_utime=1.6389770000000001, ru_stime=2.732383, ru_maxrss=322540, ru_ixrss=0, ru_idrss=0, ru_isrss=0, ru_minflt=64749, ru_majflt=2871, ru_nswap=0, ru_inblock=187456, ru_oublock=0, ru_msgsnd=0, ru_msgrcv=0, ru_nsignals=0, ru_nvcsw=16135, ru_nivcsw=342624) 2024-09-01 18:27:22
+Start testing graph 1 in model 0 2024-09-01 18:27:22
+../graphchi-cpp-master/graph_data/darpatc/theia_test.txt 2024-09-01 18:27:22
+0  loss:0.0000  acc:0.8346  fp:57012 2024-09-01 18:28:28
+1  loss:0.0000  acc:0.2429  fp:43166 2024-09-01 18:28:35
+2  loss:0.0000  acc:0.0665  fp:40294 2024-09-01 18:28:39
+3  loss:0.0000  acc:0.2396  fp:30639 2024-09-01 18:28:44
+4  loss:0.0000  acc:0.1355  fp:26486 2024-09-01 18:28:47
+5  loss:0.0000  acc:0.0502  fp:25157 2024-09-01 18:28:51
+6  loss:0.0000  acc:0.0182  fp:24699 2024-09-01 18:28:55
+7  loss:0.0000  acc:0.0148  fp:24333 2024-09-01 18:28:58
+8  loss:0.0000  acc:0.0002  fp:24327 2024-09-01 18:29:02
+9  loss:0.0000  acc:0.0018  fp:24284 2024-09-01 18:29:05
+10  loss:0.0000  acc:0.8711  fp:3130 2024-09-01 18:29:09
+Finish testing graph 1 in model 0 2024-09-01 18:29:11
+Resource usage: resource.struct_rusage(ru_utime=293.259759, ru_stime=14.436282, ru_maxrss=4455656, ru_ixrss=0, ru_idrss=0, ru_isrss=0, ru_minflt=1624649, ru_majflt=2926, ru_nswap=0, ru_inblock=2752064, ru_oublock=33536, ru_msgsnd=0, ru_msgrcv=0, ru_nsignals=0, ru_nvcsw=43328, ru_nivcsw=347673) 2024-09-01 18:29:11

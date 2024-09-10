@@ -1,0 +1,34 @@
+Sat 31 Aug 2024 18:51:04 IDT
+
+SLURM_JOBID:		 982650
+SLURM_JOB_NODELIST:	 ise-cpu-intl-08 
+
+
+executing python ./test_darpatc.py --scene cadets --pretrained
+Resource usage start: resource.struct_rusage(ru_utime=3.08983, ru_stime=2.026193, ru_maxrss=336464, ru_ixrss=0, ru_idrss=0, ru_isrss=0, ru_minflt=76591, ru_majflt=0, ru_nswap=0, ru_inblock=0, ru_oublock=0, ru_msgsnd=0, ru_msgrcv=0, ru_nsignals=0, ru_nvcsw=9217, ru_nivcsw=236248) 2024-08-31 18:51:15
+Start testing graph 1 in model 0 2024-08-31 18:51:15
+../graphchi-cpp-master/graph_data/darpatc/cadets_test.txt 2024-08-31 18:51:15
+0  loss:0.0000  acc:0.6803  fp:114195 2024-08-31 18:52:41
+1  loss:0.0000  acc:0.8419  fp:18054 2024-08-31 18:53:04
+2  loss:0.0000  acc:0.4583  fp:9779 2024-08-31 18:53:09
+3  loss:0.0000  acc:0.1086  fp:8717 2024-08-31 18:53:12
+4  loss:0.0000  acc:0.1560  fp:7357 2024-08-31 18:53:15
+5  loss:0.0000  acc:0.1287  fp:6410 2024-08-31 18:53:17
+6  loss:0.0000  acc:0.3454  fp:4196 2024-08-31 18:53:18
+7  loss:0.0000  acc:0.0067  fp:4168 2024-08-31 18:53:19
+8  loss:0.0000  acc:0.3450  fp:2730 2024-08-31 18:53:20
+9  loss:0.0000  acc:0.1553  fp:2306 2024-08-31 18:53:20
+10  loss:0.0000  acc:0.0889  fp:2101 2024-08-31 18:53:21
+11  loss:0.0000  acc:0.3413  fp:1384 2024-08-31 18:53:21
+12  loss:0.0000  acc:0.0932  fp:1255 2024-08-31 18:53:22
+13  loss:0.0000  acc:0.0518  fp:1190 2024-08-31 18:53:22
+14  loss:0.0000  acc:0.0689  fp:1108 2024-08-31 18:53:22
+15  loss:0.0000  acc:0.0045  fp:1103 2024-08-31 18:53:22
+16  loss:0.0000  acc:0.0553  fp:1042 2024-08-31 18:53:23
+17  loss:0.0000  acc:0.0038  fp:1038 2024-08-31 18:53:23
+18  loss:0.0000  acc:0.0405  fp:996 2024-08-31 18:53:23
+19  loss:0.0000  acc:0.0000  fp:996 2024-08-31 18:53:23
+20  loss:0.0000  acc:0.0000  fp:996 2024-08-31 18:53:23
+21  loss:0.0000  acc:0.0020  fp:994 2024-08-31 18:53:24
+Finish testing graph 1 in model 0 2024-08-31 18:53:26
+Resource usage: resource.struct_rusage(ru_utime=193.96815, ru_stime=7.17785, ru_maxrss=2975944, ru_ixrss=0, ru_idrss=0, ru_isrss=0, ru_minflt=1169693, ru_majflt=56, ru_nswap=0, ru_inblock=1183672, ru_oublock=32472, ru_msgsnd=0, ru_msgrcv=0, ru_nsignals=0, ru_nvcsw=34628, ru_nivcsw=240448) 2024-08-31 18:53:26
